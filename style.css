@@ -13,6 +13,11 @@ body{
     background-repeat:no-repeat;
     background-size:cover;
     display:flex;
+    position: relative;
+    display: flex;           /* Turns on Flexbox */
+    flex-direction: column;  /* Stacks h1 and pre vertically */
+    justify-content: top; /* Centers items vertically */
+    align-items: center;
 
 }
 .posterbody{
@@ -23,19 +28,21 @@ body{
     font-weight: 800;
     font-size: 200;
     margin-top:50px;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     margin-bottom: 5px;
-    margin-left:135px;
+    margin-left:2px;
+    margin-left:28px;
+
 }
     pre {
         text-align: center;
         color:white;
-        margin-left:100px;
+     
     }
     h5 {
     position: absolute;
     bottom: 20px;
-    right: 450px;
+    right: 30px;
     margin: 0;
     color: white;
     font-family: sans-serif;
