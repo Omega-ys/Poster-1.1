@@ -14,9 +14,9 @@ body{
     background-size:cover;
     display:flex;
     position: relative;
-    display: flex;           /* Turns on Flexbox */
-    flex-direction: column;  /* Stacks h1 and pre vertically */
-    justify-content: top; /* Centers items vertically */
+    display: flex;           
+    flex-direction: column;  
+    justify-content: top;
     align-items: center;
 
 }
