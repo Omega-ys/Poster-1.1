@@ -30,9 +30,8 @@ body{
     margin-top:50px;
     letter-spacing: -1px;
     margin-bottom: 5px;
-       
-    margin-left:28px;
-
+    text-align: center; 
+    width: 100%;
 }
     pre {
         text-align: center;
